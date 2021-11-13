@@ -1,0 +1,71 @@
+
+.HeartIcon{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    /* height: 1vh; */
+}
+
+.card{
+    width: 17% ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: Georgia, serif;
+}
+
+.watherDetails{
+    margin-bottom: -20px;
+}
+
+@media (max-width: 1006px) {
+    .card{
+       width: 30%;
+    }
+    .HeartIcon{
+        margin-left: 17%
+    }
+}
+@media (max-width: 856px) {
+    .card{
+       width: 45%;
+    }
+    .HeartIcon{
+        margin-left: 25%;
+    }
+}
+@media (max-width: 556px) {
+    .card{
+       width: 85%;
+    }
+    .HeartIcon{
+        margin-left: 45%;
+    }
+}
+
+.cardDayTheme{
+    background: rgb(31,72,197);
+    background: radial-gradient(circle, rgba(31,72,197,1) 27%, rgba(0,4,26,1) 100%);
+}
+
+.cardDarkTheme{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(198, 245, 248) 69%);
+}
+
+.dayTheme{
+    color: white;
+}
+
+.darkTheme{
+    color: black;
+}
+
+.placeItemInDivOnBothSides{
+    display: flex;
+    justify-content: space-between !important;
+}

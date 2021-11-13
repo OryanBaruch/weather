@@ -1,0 +1,44 @@
+.WeatherItemContainerNight, .WeatherItemContainerDay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, serif;
+}
+
+/* background of card */
+.WeatherItemContainerNight{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,253,255,1) 69%);
+    margin: 1px;
+}
+
+.WeatherItemContainerDay{
+    background: rgb(31,72,197);
+    background: radial-gradient(circle, rgba(31,72,197,1) 27%, rgba(0,4,26,1) 100%);
+    margin: 1px;
+}
+
+/* Hover */
+.WeatherItemContainerNight:hover{
+    background-color:rgba(134, 221, 255, 0.175);
+    transition: background-color 0.6s ease-in-out; 
+}
+
+.WeatherItemContainerDay:hover{
+    background-color:rgb(241, 241, 241);
+    transition: background-color 0.6s ease-in-out; 
+}
+
+
+/* Font */
+.dayNameNight{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.dayNameDay{
+    color: whitesmoke;
+    margin-top:15px;
+    margin-bottom:15px;
+}

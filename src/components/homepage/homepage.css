@@ -1,0 +1,10 @@
+.grid{
+    width: 80% !important;
+    margin:auto;
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover !important;
+} 
